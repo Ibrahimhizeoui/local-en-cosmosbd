@@ -108,7 +108,7 @@ DocDBUtils.getOrCreateDatabase(client, config.databaseId, function (err, db) {
 
                                         });
                                         }
-                                        return doc;
+                                        //return doc;
                                     }
                                     return doc;
                                 }
