@@ -1,0 +1,42 @@
+{
+    "id": "bb8087d9-f6fa-8515-0b23-335a23ec2477",
+    "patient_id": "af7c7056-f081-85e5-f8a3-bb3d5cb2abec",
+    "vitalSigns": {
+        "systolicPressure": 2018,
+        "diastolicPressure": 90,
+        "pulse": 65,
+        "breathingFrequency": 12,
+        "saturation": 98,
+        "temperature": 37.6
+    },
+    "symptoms": [
+        {
+            "name": "Chest pain",
+            "icd10": "R53.83",
+            "onset": "Gradual",
+            "character": "Stabbing",
+            "associations": [
+                "Nausea"
+            ],
+            "timeCourse": "Intermittent",
+            "exacerbatingRelieving": [
+                "Rest"
+            ],
+            "severity": "7"
+        }
+    ],
+    "labs": [
+        {
+            "name": "B-Hemoglobin",
+            "value": "90"
+        },
+        {
+            "name": "P/S-Sodium",
+            "value": "142"
+        },
+        {
+            "name": "P/S-Potassium",
+            "value": "5.3"
+        }
+    ]
+}

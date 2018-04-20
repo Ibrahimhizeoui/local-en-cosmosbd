@@ -1,0 +1,181 @@
+{
+    "id": "af7c7056-f081-85e5-f8a3-bb3d5cb2abec",
+    "medicalProfile": {
+        "sex": "Female",
+        "age": 55,
+        "height": 178,
+        "weight": 84,
+        "bmi": 23,
+        "country": "Sweden",
+        "ethnicity": "Finnish",
+        "skinColor": "Type3",
+        "alcohol": "heavy drinking",
+        "tobacco": "current daily smoker",
+        "education": "University",
+        "physicalActivity": "Medium",
+        "diet": "Low calorie intake",
+        "sexualOrientation": "Heterosexual",
+        "illicitDrugUse": [
+            {
+                "drugName": "Cocaine",
+                "frequency": "Regular per oral use"
+            },
+            {
+                "drugName": "Heroine",
+                "frequency": "Regular intravenous use"
+            },
+            {
+                "drugName": "Amphetamine",
+                "frequency": "Regular per oral use"
+            }
+        ],
+        "illnessesOrInjuriesPast": [
+            "unknown disease",
+            "secondary hypertension"
+        ],
+        "illnessesOrInjuriesCurrent": [
+            "Fibromyalgia",
+            "Acute sinusitis"
+        ],
+        "medicationPast": [
+            "candesarstad",
+            "Naproxen"
+        ],
+        "medicationPresent": [
+            "Ibuprofen",
+            "Alvedon",
+            "Atenolol",
+            "Metoprolol",
+            "acetylsalicylic acid"
+        ],
+        "allergies": [
+            "seafood",
+            "peanuT",
+            "dog",
+            "cat"
+        ],
+        "familyHistory": {
+            "father": [
+                "Chronic ischemic heart disease"
+            ],
+            "mother": [
+                "C21"
+            ],
+            "sibling": [
+                "E15"
+            ],
+            "relative": [
+                "E15",
+                "unknown disease"
+            ]
+        },
+        "surgeries": [
+            "Appendectomy",
+            "Cholecystectomy",
+            "Pulmectomy",
+            "Encephalectomy"
+        ],
+        "occupation": [
+            "Carpenter"
+        ],
+        "travel": [
+            "India",
+            "Italy",
+            "Greece",
+            "Antarctica"
+        ],
+        "recreationalActivities": [
+            "Skiing",
+            "Ballet Dancing"
+        ],
+        "bloodType": "0-",
+        "sexualRelations": {
+            "unprotectedSexCurrYear": true,
+            "numberOfPartnersLife": 1,
+            "numberOfPartnersCurrYear": 1,
+            "relationsWithParterAbroad": []
+        }
+    },
+    "session": {
+        "vitalSigns": {
+            "systolicPressure": 181,
+            "diastolicPressure": 90,
+            "pulse": 65,
+            "breathingFrequency": 12,
+            "saturation": 98,
+            "temperature": 37.6
+        },
+        "symptoms": [
+            {
+                "name": "Chest pain",
+                "icd10": "R53.83",
+                "onset": "Gradual",
+                "character": "Stabbing",
+                "associations": [
+                    "Nausea"
+                ],
+                "timeCourse": "Intermittent",
+                "exacerbatingRelieving": [
+                    "Rest"
+                ],
+                "severity": "7"
+            }
+        ],
+        "labs": [
+            {
+                "name": "B-Hemoglobin",
+                "value": "90"
+            },
+            {
+                "name": "P/S-Sodium",
+                "value": "142"
+            },
+            {
+                "name": "P/S-Potassium",
+                "value": "5.3"
+            }
+        ]
+    },
+    "suggestions": [
+        {
+            "id": 12,
+            "name": "Iron deficiency anemia",
+            "points": 110
+        },
+        {
+            "id": 19,
+            "name": "Folate deficiency anemia",
+            "points": 105
+        },
+        {
+            "id": 1,
+            "name": "Primary hypertension",
+            "points": 90
+        },
+        {
+            "id": 2,
+            "name": "Gastroesophageal reflux disease with esophagitis",
+            "points": 90
+        },
+        {
+            "id": 66,
+            "name": "Acute renal failure",
+            "points": 90
+        },
+        {
+            "id": 25,
+            "name": "Pernicious anemia",
+            "points": 87
+        },
+        {
+            "id": 30,
+            "name": "Atrial fibrillation",
+            "points": 50
+        },
+        {
+            "id": 80,
+            "name": "Pulmonary embolism",
+            "points": 50
+        }
+    ]
+}
