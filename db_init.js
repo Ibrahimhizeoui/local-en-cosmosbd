@@ -82,7 +82,6 @@ DocDBUtils.getOrCreateDatabase(client, config.databaseId, function (err, db) {
                 console.log(err);
             } 
             else{
-                console.log(db);
                 var databaseUrl = `dbs/`+config.databaseId;
                 for(collection of config.collections){
                     let collectionLink = "dbs/"+config.databaseId+"/colls/"+collection;
@@ -98,23 +97,21 @@ DocDBUtils.getOrCreateDatabase(client, config.databaseId, function (err, db) {
                                     else{console.log(err);}
                                     
                                 }
+                                //return doc;
                                 else{
                                     if(collectionLink == "dbs/"+config.databaseId+"/colls/patients"){
-                                        const f1 = function isToday(epochTs){ return new Date(epochTs * 1000).toDateString() === new Date().toDateString();};
                                         const udfs =config.udfs;
                                         for(udf of udfs){
                                             client.createUserDefinedFunction(collectionLink,udf,(err, res)=>{
                                             if (err) {console.log(err)}
-
+                                            return doc;
                                         });
                                         }
-                                        //return doc;
                                     }
                                     return doc;
                                 }
                             });
-                        return coll;
-                            
+                        return coll;      
                         }
                     });
                 }
